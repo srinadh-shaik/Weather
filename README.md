@@ -25,7 +25,7 @@ A modern and beautiful weather application built with **React** and **Vite**, di
 
 ---
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repository**
 
