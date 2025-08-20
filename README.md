@@ -30,5 +30,5 @@ A modern and beautiful weather application built with **React** and **Vite**, di
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/username(your)/weather-app.git
+   git clone https://github.com/(your)username/weather-app.git
    cd weather-app/mini-project-react
