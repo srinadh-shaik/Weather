@@ -41,10 +41,11 @@ export default function SearchBox({ onSearch, isLoading, onToast }) {
           className="search-button"
           disabled={!city.trim() || isLoading}
         >
-          <span className="button-icon">🔍</span>
+          <span className="button-icon"></span>
           Search
         </button>
       </div>
     </div>
   );
+
 }
