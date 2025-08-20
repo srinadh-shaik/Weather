@@ -1,6 +1,6 @@
 import LoadingSpinner from './LoadingSpinner';
 import { getWeatherBackground } from '../utils/weatherUtils';
-import '../styles/WeatherDisplay.css';
+import '../styles/WeatherDIsplay.css';
 
 export default function WeatherDisplay({ weatherData, isLoading }) {
   if (isLoading) {
@@ -52,3 +52,4 @@ export default function WeatherDisplay({ weatherData, isLoading }) {
     </div>
   );
 }
+
