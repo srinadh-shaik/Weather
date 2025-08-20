@@ -11,9 +11,9 @@ export default function Toast({ message, type, visible, onClose }) {
 
   const getToastIcon = (type) => {
     switch (type) {
-      case 'success': return '✅';
-      case 'error': return '❌';
-      default: return 'ℹ️';
+      case 'success': return '';
+      case 'error': return '';
+      default: return 'ℹ';
     }
   };
 
@@ -25,4 +25,5 @@ export default function Toast({ message, type, visible, onClose }) {
       </div>
     </div>
   );
+
 }
