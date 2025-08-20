@@ -13,7 +13,7 @@ export default function Toast({ message, type, visible, onClose }) {
     switch (type) {
       case 'success': return '';
       case 'error': return '';
-      default: return 'ℹ';
+      default: return '';
     }
   };
 
@@ -27,3 +27,4 @@ export default function Toast({ message, type, visible, onClose }) {
   );
 
 }
+
